@@ -81,6 +81,7 @@ export default function TicTacToe() {
         boxes.map((box)=>(
             box.current.innerHTML=""
         ))
+        console.log("hello")
     }
 
     const handleClick = (e)=>{
